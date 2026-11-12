@@ -44,7 +44,9 @@ Copy `.env.example` and export the variables to enable the keyed sources.
 
 ## 🎨 Palette
 
-All colors are tokens at the top of `public/styles.css` (`--brand-primary`, `--brand-secondary`, `--brand-accent`, `--brand-fresh`, `--brand-nope`, plus their dark-mode twins). To re-theme the app, change those five values and everything else follows.
+The palette comes from the brand banner: one gradient running **terracotta `#C67967` → rose `#A55463` → berry `#863E63` → dusk violet `#5D567F` → steel blue `#456C95`**, with cream (`#FFF4EA`) line art. The type follows the banner too: italic serif headlines (Fraunces) with a bold geometric sans (Plus Jakarta Sans).
+
+All colors are tokens at the top of `public/styles.css`, along with their dark-mode versions. Change them there and the whole UI follows.
 
 ## How the match % works
 

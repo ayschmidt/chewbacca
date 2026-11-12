@@ -126,6 +126,7 @@
           <div class="mini"><div class="ring" style="--p:94;background:conic-gradient(var(--brand-primary) 94%, var(--surface-2) 0)"><b>94%</b></div><b>Your dream job</b><small>Soulmate material 💘</small></div>
         </div>
         <h1>Swipe right on <span class="grad">your future</span></h1>
+        <p class="kicker-line"><em>connecting</em> great people <em>with brands</em> worth joining</p>
         <p class="lead">Tell us your story. We'll build your career persona, look through the job boards, and show you the roles you're a real match for, with tips to win each one.</p>
         <div class="cta">
           ${returning
@@ -623,7 +624,7 @@
 
   function confetti() {
     if (matchMedia('(prefers-reduced-motion: reduce)').matches) return;
-    const colors = ['--brand-primary', '--brand-secondary', '--brand-accent', '--brand-fresh'].map((v) => getComputedStyle(document.documentElement).getPropertyValue(v));
+    const colors = ['--brand-terracotta', '--brand-rose', '--brand-berry', '--brand-dusk', '--brand-steel', '--brand-cream'].map((v) => getComputedStyle(document.documentElement).getPropertyValue(v));
     for (let i = 0; i < 70; i++) {
       const c = document.createElement('i');
       c.className = 'confetti';
